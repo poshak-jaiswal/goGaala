@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bc50511d-4ecd-4607-8ef3-9dfd6b42607c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>goGaala</Name>
+    <RootNamespace>goGaala</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="goGaala\__init__.py" />
+    <Compile Include="goGaala\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="goGaala\" />
+    <Folder Include="goGaala\static\" />
+    <Folder Include="goGaala\static\CSS\home\" />
+    <Folder Include="goGaala\static\images\" />
+    <Folder Include="goGaala\static\fonts\" />
+    <Folder Include="goGaala\static\CSS\" />
+    <Folder Include="goGaala\static\images\home\" />
+    <Folder Include="goGaala\static\images\products\" />
+    <Folder Include="goGaala\static\images\team\" />
+    <Folder Include="goGaala\static\images\services\" />
+    <Folder Include="goGaala\static\scripts\" />
+    <Folder Include="goGaala\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="goGaala\static\CSS\home\contact.css" />
+    <Content Include="goGaala\static\CSS\home\css.css" />
+    <Content Include="goGaala\static\CSS\home\font-awesome.min.css" />
+    <Content Include="goGaala\static\CSS\home\index.css" />
+    <Content Include="goGaala\static\CSS\home\products.css" />
+    <Content Include="goGaala\static\CSS\home\team.css" />
+    <Content Include="goGaala\static\images\home\astro.svg" />
+    <Content Include="goGaala\static\images\home\consulting.jpg" />
+    <Content Include="goGaala\static\images\home\design.jpg" />
+    <Content Include="goGaala\static\images\home\ev.png" />
+    <Content Include="goGaala\static\images\home\farecompare.png" />
+    <Content Include="goGaala\static\images\home\go.jpg" />
+    <Content Include="goGaala\static\images\home\gogo.png" />
+    <Content Include="goGaala\static\images\home\hero-1.jpg" />
+    <Content Include="goGaala\static\images\home\hero-11.jpg" />
+    <Content Include="goGaala\static\images\home\hero-3.jpg" />
+    <Content Include="goGaala\static\images\home\logo.png" />
+    <Content Include="goGaala\static\images\home\mail.png" />
+    <Content Include="goGaala\static\images\home\opensource.jpg" />
+    <Content Include="goGaala\static\images\home\party-events.jpg" />
+    <Content Include="goGaala\static\images\home\scality.png" />
+    <Content Include="goGaala\static\images\home\hero-2.jpg" />
+    <Content Include="goGaala\static\images\home\team-small.jpg" />
+    <Content Include="goGaala\static\images\home\v.png" />
+    <Content Include="goGaala\static\images\home\water11.png" />
+    <Content Include="goGaala\static\images\products\meet.jpg" />
+    <Content Include="goGaala\static\images\products\music1.jpg" />
+    <Content Include="goGaala\static\images\products\wedding.jpg" />
+    <Content Include="goGaala\static\images\services\anniversary.png" />
+    <Content Include="goGaala\static\images\services\bachelors.png" />
+    <Content Include="goGaala\static\images\services\birthday.png" />
+    <Content Include="goGaala\static\images\services\corporate.png" />
+    <Content Include="goGaala\static\images\services\dj.png" />
+    <Content Include="goGaala\static\images\services\venue.png" />
+    <Content Include="goGaala\static\images\services\catering.png" />
+    <Content Include="goGaala\static\images\services\vip.png" />
+    <Content Include="goGaala\static\images\services\wed.png" />
+    <Content Include="goGaala\static\images\services\workshop.png" />
+    <Content Include="goGaala\static\images\team\happy.jpg" />
+    <Content Include="goGaala\static\images\team\kavita.jpg" />
+    <Content Include="goGaala\static\images\team\mansi.jpg" />
+    <Content Include="goGaala\static\images\team\team-bg.jpg" />
+    <Content Include="goGaala\static\images\team\vijay.jpg" />
+    <Content Include="goGaala\static\images\team\vishal.jpg" />
+    <Content Include="goGaala\static\scripts\analytics.js" />
+    <Content Include="goGaala\static\scripts\fbevents.js" />
+    <Content Include="goGaala\static\scripts\hire.js" />
+    <Content Include="goGaala\static\scripts\jquery-1.12.4.min.js" />
+    <Content Include="goGaala\static\scripts\tag.js" />
+    <Content Include="goGaala\static\scripts\util.js" />
+    <Content Include="goGaala\static\scripts\uwt.js" />
+    <Content Include="goGaala\templates\products.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="goGaala\templates\team.html" />
+    <Content Include="goGaala\templates\contact.html" />
+    <Content Include="goGaala\templates\index.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
