@@ -98,6 +98,7 @@
     <Content Include="goGaala\static\scripts\util.js" />
     <Content Include="goGaala\static\scripts\uwt.js" />
     <Content Include="goGaala\templates\products.html" />
+    <Content Include="Procfile" />
     <Content Include="requirements.txt" />
     <Content Include="goGaala\templates\team.html" />
     <Content Include="goGaala\templates\contact.html" />
